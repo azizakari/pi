@@ -16,7 +16,7 @@ const pickedUpOdersRoutes = require('./routes/pickedUpOders');
 
 
 
-mongoose.connect('mongodb+srv://fedibrahem:neourban123@cluster0.ehj7z.mongodb.net/pi',{useNewUrlParser: true , useUnifiedTopology: true})
+mongoose.connect('mongodb+srv://hot lien mtaa mongodb@cluster0.ehj7z.mongodb.net/pi',{useNewUrlParser: true , useUnifiedTopology: true})
   .then(()=>{
     console.log('connected to degimondata!');
   })

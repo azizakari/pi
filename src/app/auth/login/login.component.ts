@@ -17,7 +17,7 @@ export class LoginComponent {
       return;
 
     }
-    this.sankBar.open("Logging... Please wait ", 'Close');
+    this.sankBar.open("server is down for maintenance ", 'Close');
     this.authService.login(form.value.email,form.value.password);
   };
 
